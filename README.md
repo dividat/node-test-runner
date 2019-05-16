@@ -35,6 +35,10 @@ npm install elm
 elm-test --compiler ./node_modules/.bin/elm-make
 ```
 
+#### `--elmi`
+
+The `--elmi` flag can be used to use a custom build of [`elm-interface-to-json`](https://github.com/stoeffel/elm-interface-to-json).
+
 #### `--seed`
 
 Allow running the tests with a predefined seed, rather than a randomly generated seed. This is especially helpful when trying to reproduce a failing fuzz-test.
